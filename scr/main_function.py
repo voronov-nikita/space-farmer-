@@ -77,10 +77,6 @@ def shintochka(n):
     return (8 * 2 ** n) - 8
 
 
-def from_bd():
-    with open("information.db", 'r') as file:
-        for i in file:
-            print(i)
 
 
 # <------------ Основной алгоритм программы -------------->
