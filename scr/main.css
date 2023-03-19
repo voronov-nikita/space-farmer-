@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(166,232,238,1) 100%);
+    font-size: 16px;
+    color: black;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+.info {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-column {
+    flex: 1;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: #CEE8EE;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-cell {
+    flex: 1;
+    height: 70px;
+}
